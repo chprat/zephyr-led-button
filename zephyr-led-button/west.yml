@@ -1,0 +1,13 @@
+# west.yml based on
+# https://docs.zephyrproject.org/3.6.0/develop/west/workspaces.html#west-t2
+manifest:
+  remotes:
+    - name: zephyrproject-rtos
+      url-base: https://github.com/zephyrproject-rtos
+  projects:
+    - name: zephyr
+      remote: zephyrproject-rtos
+      revision: v3.5.0
+      import: true
+  self:
+    path: zephyr-led-button
