@@ -1,0 +1,10 @@
+# generated folders
+/bootloader
+/build*
+/modules
+/tools
+/.west
+/zephyr
+
+# vim swap files
+**/*.swp
