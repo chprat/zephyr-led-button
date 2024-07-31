@@ -5,7 +5,7 @@
         compatible = "gpio-keys";
         user_btn0: button-0 {
             label = "User BTN0";
-            gpios = <&gpio1 11 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>;
+            gpios = <&gpio2 1 (GPIO_PULL_DOWN | GPIO_ACTIVE_HIGH)>;
             zephyr,code = <INPUT_KEY_0>;
         };
     };
